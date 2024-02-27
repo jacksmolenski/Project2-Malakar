@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!--
+        Answer to question 2: its important for the radio IDs to be unique so that they can 
+        have different values assigned to them later on.
+        Answer to question 3: radio buttons only allow for one selection
+        Answer to question 4: forms could be falsely filled out or wrong data is applied
+    -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Character Selection</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="container">
+        <h1>Choose Your Character</h1>
+        <form id="characterForm" type="get" action="page3.html">
+            <fieldset>
+                <legend>Choose Your Character</legend>
+                <div class="character">
+                    <label for="character">
+                        <input type="radio" id="Aria" name="character" value="warrior">
+                        <strong>Aria, the Warrior:</strong> Strong and brave, with the ability to overcome physical obstacles.
+                    </label>
+                </div>
+                <div class="character">
+                    <label for="character">
+                        <input type="radio" id="Eldrin" name="character" value="mage">
+                        <strong>Eldrin, the Mage:</strong> Wise and knowledgable, with the power to solve puzzles and cast spells.
+                    </label>
+                </div>
+                <div class="character">
+                    <label for="character">
+                        <input type="radio" id="Tara" name="character" value="rogue">
+                        <strong>Tara, the Rogue:</strong> Quick and cunning, with skills in stealth and persausion.
+                    </label>
+                </div>
+                <div>
+                    <input type="submit" value="Continue">
+                </div>
+            </fieldset>
+        </form>
+    </section>
+</body>
+</html>

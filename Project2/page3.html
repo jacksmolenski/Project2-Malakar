@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Quest Begins</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="supplies">
+        <h1>Pack Your Bag</h1>
+        <p>Select the supplies you wish to take on your quest.
+         Choose wisely, as you can only carry a limited amount.</p>
+         <form id="suppliesForm" type="get" action="page4.html">
+            <fieldset>
+                <input type="checkbox" id="food" name="provisions" value="food">
+                <label for="provisions">Food: Essential for energy.</label><br>
+                <input type="checkbox" id="water" name="provisions" value="water">
+                <label for="provisions">Water: Hydration is key!</label><br>
+                <input type="checkbox" id="magic potion" name="provisions" value="magic potion">
+                <label for="provisions">Magic Potions: For health and magical energy.</label><br>
+                <input type="checkbox" id="maps" name="provisions" value="maps">
+                <label for="provisions">Maps: Don't get lost in the wilderness!</label><br>
+                <input type="checkbox" id="sword" name="provisions" value="sword">
+                <label for="provisions">Sword: Fend off those pesky foes!</label><br>
+            </fieldset>
+         </form>
+         <p>Once you've chosen your gear, press continue. But beware, every choice has consequences!</p>
+         <button onclick="location.href='page4.html'">Continue</button>
+    </section>
+</body>
+</html>
